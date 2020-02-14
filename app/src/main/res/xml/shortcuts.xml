@@ -1,0 +1,19 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="settings"
+        android:enabled="true"
+        android:icon="@mipmap/ic_shortcut_settings"
+        android:shortcutShortLabel="@string/shortcut_settings_label"
+        android:shortcutLongLabel="@string/shortcut_settings_label"
+        android:shortcutDisabledMessage="@string/shortcut_settings_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.anodev.fullwebview"
+            android:targetClass="com.anodev.fullwebview.SettingsActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>
