@@ -2,7 +2,7 @@
 ## Description:
 Application for displaying a web page in full screen mode with the ability to make it a home launcher and autorun. \
 This app comes with **full support for modern web pages on older devices (android 4.1+)**! \
-This result is possible exclusively thanks to [GeckoView](https://wiki.mozilla.org/Mobile/GeckoView)!\
+This result is possible exclusively thanks to [GeckoView](https://wiki.mozilla.org/Mobile/GeckoView)!
 ## Screenshots:
 All screenshots here: https://imgur.com/a/ewMXuiG
 ## Device requirements:
